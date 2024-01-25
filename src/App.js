@@ -9,10 +9,16 @@ import Pricing from './Pricing';
 import Advantage from './Advantage';
 import Feedback from './Feedback';
 import About from './About';
+import OurNews from './OurNews';
+import GetIntouch from './GetIntouch';
+import Footer from './Footer';
+import Aos from 'aos';
 
+import React, { useEffect } from 'react';  
 function App() {
+  useEffect(() => {     Aos.init();   }, []);
   return (
-    <div className="container-fluid">
+    <div className="">
       <Header/>
       <Home/>
       <Feature/>
@@ -22,6 +28,9 @@ function App() {
       <Advantage/>
       <Feedback/>
       <About/>
+      <OurNews/>
+      <GetIntouch/>
+      <Footer/>
     </div>
   );
 }

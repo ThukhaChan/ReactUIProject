@@ -1,17 +1,18 @@
 import React from "react";
 import dashboard from "./dashboard.jpg.webp";
 import avatar from "./avatar5.png";
+import './App.css'
 
 export default function About() {
   return (
     <>
-      <div className="mt-5 p-5">
+      <div className="mt-5 p-5"style={{ fontStyle:"Nunito"}} id="feature">
         <div className="untree_co-section" id="features-section">
           <div className="container">
             <div className="row justify-content-between">
               <div className="col-lg-4">
                 <span
-                  className="caption aos-init aos-animate"
+                  className=""
                   data-aos="fade-up"
                   data-aos-delay={0}
                   style={{ color:'blue',fontStyle:'oblique' }}
@@ -26,23 +27,24 @@ export default function About() {
                   Selling Digital Services
                 </h1>
                 <div
-                  className="mb-4 aos-init aos-animate"
+                  className="mb-4"
                   data-aos="fade-up"
                   data-aos-delay={200}
+                  style={{ color:'gray'}}
                 >
-                  <p>
+                  <p >
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast
                   </p>
-                  <ul className=" ul-check unstyled">
-                    <li> There live the blind texts</li>
-                    <li>Far far away behind the word</li>
+                  <ul className=" list-unstyled">
+                    <li className="check position-relative ps-4"> There live the blind texts</li>
+                    <li className="check position-relative ps-4">Far far away behind the word</li>
                   </ul>
                 </div>
                 <div
-                  className="mb-4 aos-init aos-animate"
+                  className="mb-4"
                   data-aos="fade-up"
                   data-aos-delay={300}
                 >

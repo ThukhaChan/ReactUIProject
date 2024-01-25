@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
-
+import person1 from "./person_1.jpg.webp";
+import person2 from "./person_2.jpg.webp";
+// import person3 from "./person_3.jpg.webp";
 export default function Feedback() {
   return (
-    <div className="mt-5 p-5">
-      <div className="untree_co-section" id="features-section">
+    <div className="mt-lg-5  mb-5" id="feedback">
+      <div className="untree_co-section">
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-4">
@@ -12,15 +14,12 @@ export default function Feedback() {
                 className="caption"
                 style={{ color: "blue", fontStyle: "oblique" }}
               >
-                Digital Services
+                TESTIMONIALS
               </span>
-              <h1 className="heading mb-4">Our Customers Feedbck</h1>
+              <h1 className="heading mb-4">Our Customers Feedback</h1>
               <div></div>
-              <div>
-                <a
-                  href="#"
-                  className="js-custom-prev-v2 cusotm-slider-nav custom-prev"
-                >
+              <div className="col-4">
+                <a href="#" className=" ">
                   <span
                     style={{
                       width: "100px",
@@ -43,12 +42,9 @@ export default function Feedback() {
                       />
                     </svg>
                   </span>
-               </a>
-               <a
-                  href="#"
-                  className="js-custom-next-v2 cusotm-slider-nav custom-next"
-                >
                 </a>
+
+                <a href="#" className="">
                   <span
                     style={{
                       width: "100px",
@@ -71,11 +67,84 @@ export default function Feedback() {
                       />
                     </svg>
                   </span>
+                </a>
+              </div>
+              </div>
+              <div className="col-8">
+                <div className="row">
+                  
+                  <div className="col-6">
+                  <div className="text">
+                      <blockquote><i>
+                        “Separated they{" "}
+                        <span className="highlight">
+                          live in Bookmarksgrove right at the coast of the
+                          Semantics
+                        </span>
+                        , a large language ocean. A small river named Duden
+                        flows by their place and supplies it with the necessary
+                        regelialia. ”</i>
+                      </blockquote>
+
+                      <div className="author d-flex">
+                        <div className="pic mr-3">
+                          <img
+                            width={'50px'}
+                            src={person2}
+                            alt="Image"
+                            className="img-fluid rounded-5"
+                          />
+                        </div>
+                        <div style={{ fontSize:'13px' }}>
+                          <strong className="d-block">James Anderson</strong>
+                          <span className="d-block" style={{ color:'gray' }}>
+                            Facebook, Product Lead
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                 
+                  <div className="col-6">
+                  <div className="text">
+                      <blockquote><i>
+                        “Separated they{" "}
+                        <span className="highlight">
+                          live in Bookmarksgrove right at the coast of the
+                          Semantics
+                        </span>
+                        , a large language ocean. A small river named Duden
+                        flows by their place and supplies it with the necessary
+                        regelialia. ”</i>
+                      </blockquote>
+
+                      <div className="author d-flex">
+                        <div className="pic mr-3">
+                          <img
+                            width={'50px'}
+                            src={person1}
+                            alt="Image"
+                            className="img-fluid rounded-5"
+                          />
+                        </div>
+                        <div style={{ fontSize:'13px' }}>
+                          <strong className="d-block">James Anderson</strong>
+                          <span className="d-block" style={{ color:'gray' }}>
+                            Facebook, Product Lead
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
+    
   );
 }

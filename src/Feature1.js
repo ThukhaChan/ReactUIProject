@@ -4,6 +4,7 @@ import cap5 from "./cap5.png";
 import cap2 from "./cap2.PNG";
 import cap3 from "./cap3.PNG";
 import cap4 from "./cap4.PNG";
+import './App.css'
 
 export default function Feature1() {
   return (
