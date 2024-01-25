@@ -1,9 +1,10 @@
 import React from "react";
-import market from "./market.svg";
+import market from "../imageFolder/market.svg";
+import '../cssFolder/Home.css';
 
 export default function Home() {
   return (
-    <div className="container"style={{ fontStyle:"Nunito",fontWeight:'' }} id="home">
+    <div className="container"id="home">
       <div className="mt-5">
         <div className="row align-items-center">
           <div className="col-12">
@@ -20,7 +21,7 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-duration="1000">
 
-                <h1 style={{ fontSize: "70px" }}>
+                <h1 className="header">
                   Promote Your Products by Colorlib
                 </h1>
 
@@ -28,7 +29,7 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
-                  <p style={{ color: "gray" }}>
+                  <p className="para">
                     Another cool free html css template by{" "}
                     <a href="#" target="_blank" className="highlight">
                       Colorlib
@@ -44,13 +45,13 @@ export default function Home() {
                   data-aos-duration="1000"
                 >
                   <a
-                    href="#features-section"
+                    href="#feature"
                     className="btn btn-primary smoothscroll me-2 rounded-5"
                   >
                     See Features
                   </a>
                   <a
-                    href="#pricing-section"
+                    href="#pricing"
                     className="btn btn-outline-primary smoothscroll  me-2 rounded-5"
                   >
                     Pricing

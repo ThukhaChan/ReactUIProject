@@ -1,37 +1,37 @@
 import React from "react";
-import dashboard1 from "./dashboard1.jpg.webp";
-import cap5 from "./cap5.png";
-import cap2 from "./cap2.PNG";
-import cap3 from "./cap3.PNG";
-import cap4 from "./cap4.PNG";
-import './App.css'
+import '../cssFolder/Feature.css'
 
-export default function Feature1() {
+export default function Advantage() {
   return (
     <div className="mt-5">
-      <div className="untree_co-section bg-light">
+    <div className="p-5">
+      <div className="">
         <div className="container">
-          <div className="row justify-content-between">
-
-            <div className="col-lg-7">
-              <img src={dashboard1} alt="Image" className="img-fluid" />
+          <div className="row mb-4">
+            <div
+              className="col-12 text-center"
+              data-aos="fade-up"
+              data-aos-delay={0}
+            >
+              <h1 className="heading">Advantage of using our products</h1>
+              <p style={{ color:'gray' }}>Far from the countries Vokalia and Consonantia</p>
             </div>
+          </div>
+          <div className="row">
+            <div
+              className="col-lg-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay={100}
+            >
+              <div className="service horizontal d-flex">
 
-            <div className="col-lg-5  js-custom-dots">
-              <a
-                href="#"
-                className="service link horizontal d-flex aos-init aos-animate text-decoration-none text-dark"
-                data-aos="fade-left"
-                data-aos-delay={0}
-                data-index={1}
-              >
-                <div className="service-icon color-2 mb-4 p-2 mt-2">
-                  {/* <svg
+                <div className="service-icons color-1  m-1  shadow-sm rounded-3">
+                  <svg
                     className="bi bi-app-indicator"
                     width="2em"
                     height="2em"
                     viewBox="0 0 16 16"
-                    fill="currentColor"
+                    fill="#ffff"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -39,31 +39,36 @@ export default function Feature1() {
                       d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"
                     />
                     <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                  </svg> */}
-                  <img src={cap5} alt="Image" className="img-fluid rounded-5" width={'75px'} height={'75px'}/>
+                  </svg>
                 </div>
-                <div className="service-contents p-2 mt-2">
+                <div className="service-contents">
                   <h5>Grow Your Business</h5>
-                  <p style={{ color:"gray" }}>
+                  <p style={{ color:'gray' }}>
                     Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia.
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.
+                  </p>
+                  <p>
+                    <a href="#" className="read-more m-1">
+                    <small>Learn More</small>
+                    </a>
                   </p>
                 </div>
-              </a>
-              <a
-                href="#"
-                className="service link horizontal d-flex aos-init aos-animate text-decoration-none text-dark"
-                data-aos="fade-left"
-                data-aos-delay={100}
-                data-index={2}
-              >
-                <div className="service-icon color-2 mb-4 p-2">
-                  {/* <svg
+              </div>
+            </div>
+            <div
+              className="col-lg-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay={200}
+            >
+              <div className="service horizontal d-flex">
+                <div className="service-icons color-2  m-1 shadow-sm rounded-3">
+                  <svg
                     className="bi bi-arrow-repeat"
-                    width="1em"
-                    height="1em"
+                    width="2em"
+                    height="2em"
                     viewBox="0 0 16 16"
-                    fill="currentColor"
+                    fill="#ffff"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -74,31 +79,36 @@ export default function Feature1() {
                       fillRule="evenodd"
                       d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z"
                     />
-                  </svg> */}
-                  <img src={cap4} alt="Image" className="img-fluid rounded-4" width={'75px'} height={'75px'}/>
+                  </svg>
                 </div>
-                <div className="service-contents p-2">
+                <div className="service-contents">
                   <h5>Build Products</h5>
-                  <p style={{ color:"gray" }}>
+                  <p style={{ color:'gray' }}>
                     Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia.
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.
+                  </p>
+                  <p>
+                    <a href="#" className="read-more m-1">
+                    <small>Learn More</small>
+                    </a>
                   </p>
                 </div>
-              </a>
-              <a
-                href="#"
-                className="service link horizontal d-flex aos-init aos-animate text-decoration-none text-dark"
-                data-aos="fade-left"
-                data-aos-delay={200}
-                data-index={3}
-              >
-                <div className="service-icon color-3 mb-4 p-2">
-                  {/* <svg
+              </div>
+            </div>
+            <div
+              className="col-lg-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay={300}
+            >
+              <div className="service horizontal d-flex">
+                <div className="service-icons color-3  m-1 shadow-sm rounded-3">
+                  <svg
                     className="bi bi-briefcase"
                     width="2em"
                     height="2em"
                     viewBox="0 0 16 16"
-                    fill="currentColor"
+                    fill="#ffff"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -109,53 +119,61 @@ export default function Feature1() {
                       fillRule="evenodd"
                       d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"
                     />
-                  </svg> */}
-                  <img src={cap2} alt="Image" className="img-fluid rounded-5" width={'75px'} height={'75px'}/>
+                  </svg>
                 </div>
-                <div className="service-contents p-2">
+                <div className="service-contents">
                   <h5>Success Every Day</h5>
-                  <p style={{ color:"gray" }}>
+                  <p style={{ color:'gray' }}>
                     Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia.
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.
+                  </p>
+                  <p>
+                    <a href="#" className="read-more m-1">
+                    <small>Learn More</small>
+                    </a>
                   </p>
                 </div>
-              </a>
-              <a
-                href="#"
-                className="service link horizontal d-flex aos-init aos-animate active text-decoration-none text-dark"
-                data-aos="fade-left"
-                data-aos-delay={300}
-                data-index={4}
-              >
-                <div className="service-icon color-4 mb-4 p-2">
-                  {/* <svg
+              </div>
+            </div>
+            <div
+              className="col-lg-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay={400}
+            >
+              <div className="service horizontal d-flex">
+                <div className="service-icons color-4  m-1 shadow-sm rounded-3">
+                  <svg
                     className="bi bi-collection"
                     width="2em"
                     height="2em"
                     viewBox="0 0 16 16"
-                    fill="currentColor"
+                    fill="#ffff"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       fillRule="evenodd"
                       d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"
                     />
-                  </svg> */}
-                  <img src={cap3} alt="Image" className="img-fluid rounded-5" width={'75px'} height={'75px'}/>
+                  </svg>
                 </div>
-                <div className="service-contents p-2">
+                <div className="service-contents m-1">
                   <h5>Bring Ideas to Life</h5>
-                  <p style={{ color:"gray" }}>
+                  <p style={{ color:'gray' }}>
                     Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia.
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.
+                  </p>
+                  <p>
+                    <a href="#" className="read-more">
+                      <small>Learn More</small>
+                    </a>
                   </p>
                 </div>
-              </a>
-            </div>
-            {/* Here  */}
-            <div className="p-5">
+              </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

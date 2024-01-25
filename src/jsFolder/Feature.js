@@ -1,7 +1,7 @@
 import React from "react";
-import dashboard from "./dashboard.jpg.webp";
-import avatar from "./avatar5.png";
-import './App.css'
+import '../cssFolder/Feature.css'
+import dashboard from "../imageFolder/dashboard.jpg.webp";
+import avatar from "../imageFolder/avatar5.png";
 
 export default function About() {
   return (
@@ -48,7 +48,7 @@ export default function About() {
                   data-aos="fade-up"
                   data-aos-delay={300}
                 >
-                  <div className="untree_co-testimonial d-flex">
+                  <div className=" d-flex">
                     <div className="text">
                       <blockquote>
                         “Separated they{" "}

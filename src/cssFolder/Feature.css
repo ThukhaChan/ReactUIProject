@@ -1,0 +1,45 @@
+.service-icon{
+
+   
+    width: 45px;
+    height: 45px;
+    padding-top: 3%;
+    padding-left: 3%;
+    
+    
+}
+
+.service-icons{
+    line-height: 40px;
+    width: 60px;
+    height: 40px;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+
+}
+.service-icons.color-1{
+    background-color: aqua;
+}
+.service-icons.color-2{
+    background-color: rgb(219, 243, 81);
+}
+.service-icons.color-3{
+    background-color: rgb(228, 80, 92);
+}
+.service-icons.color-4{
+    background-color: rgb(115, 115, 231);
+}
+
+.service-icon.color-1{
+    background-color: aqua;
+}
+.service-icon.color-2{
+    background-color: rgb(219, 243, 81);
+}
+.service-icon.color-3{
+    background-color: rgb(228, 80, 92);
+}
+.service-icon.color-4{
+    background-color: rgb(115, 115, 231);
+}

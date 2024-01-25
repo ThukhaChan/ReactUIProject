@@ -1,8 +1,7 @@
 import React from "react";
-import person1 from "./person_1.jpg.webp";
-import person2 from "./person_2.jpg.webp";
-import person3 from "./person_3.jpg.webp";
-import './App.css'
+import person1 from "../imageFolder/person_1.jpg.webp";
+import person2 from "../imageFolder/person_2.jpg.webp";
+import person3 from "../imageFolder/person_3.jpg.webp";
 
 
 export default function OurNews() {

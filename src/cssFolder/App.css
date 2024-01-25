@@ -1,0 +1,53 @@
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin,
+.icon-pinterest,
+.icon-dribbble {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  background-color: #777777;
+  color: #eee;
+  border-radius: 50%;
+}
+
+.check::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: "\2713";
+  font-size: 20px;
+  color: #4085ff;
+}
+
+.hov {
+  transition: 400ms;
+}
+.hov:hover {
+  margin-top: -15px;
+}
+
+
+.read-more-arrow {
+  position: relative;
+  z-index: 2;
+}
+
+.read-more-arrow svg {
+  font-size: 30px;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s all ease;
+  left: 0;
+}
+.read-more-arrow:hover svg {
+  left: 30px;
+}
+
+

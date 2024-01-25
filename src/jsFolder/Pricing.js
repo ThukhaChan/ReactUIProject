@@ -1,8 +1,8 @@
 import React from "react";
-import "./App.css";
 export default function () {
   return (
-    <div className="untree_co-section bg-light" id="pricing">
+    <div className="container-fluid container-spacing">
+    <div className=" bg-light" id="pricing">
     <div className="container ">
       <div class="row pricing-title">
         <div
@@ -21,7 +21,7 @@ export default function () {
             <div className="row mb-5">
 
               <div
-                className="col-lg-4 "
+                className="col-lg-4 mb-4"
                 data-aos="fade-up" 
                 data-aos-delay="200"
               >
@@ -49,7 +49,7 @@ export default function () {
               </div>
 
               <div
-                className="col-lg-4 "
+                className="col-lg-4 mb-4 "
                 data-aos="fade-up" 
                 data-aos-delay="200"
               >
@@ -79,7 +79,7 @@ export default function () {
               </div>
 
               <div
-                className="col-lg-4"
+                className="col-lg-4 mb-4"
                 data-aos="fade-up" 
                 data-aos-delay="200"
               >
@@ -113,6 +113,7 @@ export default function () {
         </div>
       </div>
       </div>
+    </div>
     </div>
     </div>
   );

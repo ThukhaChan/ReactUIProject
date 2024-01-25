@@ -32,7 +32,7 @@ export default function GetIntouch() {
                   <div className="col-6">
                     <div className="form-group">
                       <label className="" htmlFor="lname"style={{ color:'gray' }}>
-                        Last name
+                        Last  name
                       </label>
                       <input type="text" className="form-control" id="lname" />
                     </div>

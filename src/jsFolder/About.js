@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import about from "./about.svg";
+import about from "../imageFolder/about.svg";
 import CountUp from 'react-countup';
 import ScrollTrigger from "react-scroll-trigger";
 export default function () {
   const [counterOn, setConterOn]=useState(false);
   return (
     <ScrollTrigger onEnter={()=>setConterOn(true)}onExit={()=> setConterOn(false)}  >
+      
     <div className="mt-lg-5" id="about">
       <div className="container p-lg-5">
         <div className="row justify-content-between">
@@ -62,7 +63,7 @@ export default function () {
                 >
                   <span className="counter d-block" style={{ fontSize:'50px' }}>
                     {/* <span data-number={59} >59</span> */}
-                    {counterOn &&<CountUp start={0} end={59} duration={10} delay={0}></CountUp>}
+                    {counterOn &&<CountUp start={0} end={90} duration={20} delay={0}></CountUp>}
                     <span>M</span>
                   </span>
                   <span className="caption-2"style={{ fontSize:'13px' , color:'gray'}}>Members</span>
@@ -74,7 +75,7 @@ export default function () {
                 >
                   <span className="counter d-block" style={{ fontSize:'50px' }}>
                     {/* <span data-number={14}>14</span> */}
-                    {counterOn &&<CountUp start={0} end={14} duration={15} delay={0}></CountUp>}
+                    {counterOn &&<CountUp start={0} end={15} duration={25} delay={0}></CountUp>}
                     <span />
                   </span>
                   <span className="caption-2" style={{ fontSize:'13px' , color:'gray'}}>Team</span>
