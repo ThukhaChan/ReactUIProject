@@ -1,5 +1,5 @@
 import React from "react";
-import '../cssFolder/Feature.css'
+import "../cssFolder/Feature.css";
 import dashboard1 from "../imageFolder/dashboard1.jpg.webp";
 export default function Feature1() {
   return (
@@ -7,15 +7,13 @@ export default function Feature1() {
       <div className="bg-light">
         <div className="container">
           <div className="row justify-content-between">
-            
             {/* div Photo */}
             <div className="col-lg-7">
-              <img src={dashboard1} alt="Image" className="img-fluid"/>
+              <img src={dashboard1} alt="Image" className="img-fluid" />
             </div>
-             {/* end div Photo */}
+            {/* end div Photo */}
 
             <div className="col-lg-5  js-custom-dots">
-
               {/* Service Link -> Grow Your Business */}
               <a
                 href="#"
@@ -39,7 +37,7 @@ export default function Feature1() {
                     ></path>
                     <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
                   </svg>
-                  </div>
+                </div>
                 <div className="service-contents p-2 mt-2">
                   <h5>Grow Your Business</h5>
                   <p style={{ color: "gray" }}>
@@ -118,7 +116,7 @@ export default function Feature1() {
                   </p>
                 </div>
               </a>
-               {/* Service Link -> Bring Ideas to Life */}
+              {/* Service Link -> Bring Ideas to Life */}
               <a
                 href="#"
                 className="service link horizontal d-flex active text-decoration-none text-dark"

@@ -1,4 +1,5 @@
 import React from "react";
+import "../cssFolder/Feature.css";
 import person1 from "../imageFolder/person_1.jpg.webp";
 import person2 from "../imageFolder/person_2.jpg.webp";
 // import person3 from "../imageFolder/person_3.jpg.webp";
@@ -10,20 +11,10 @@ export default function Feedback() {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-sm-12 col-lg-4">
-              <span
-                className="caption"
-                style={{ color: "blue", fontStyle: "oblique" }}
-              >
-                TESTIMONIALS
-              </span>
+              <span className="caption text-primary">TESTIMONIALS</span>
               <h1 className="heading mb-4 ">Our Customers Feedback</h1>
-
-              <a
-                // className="carousel-control-prev"
-                data-bs-target="#demo"
-                data-bs-slide="prev"
-                href="#"
-              >
+              {/* arrow right button */}
+              <a data-bs-target="#demo" data-bs-slide="prev" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="1.5em"
@@ -38,8 +29,8 @@ export default function Feedback() {
                   />
                 </svg>
               </a>
+              {/* arrow right button */}
               <a
-                
                 // className="carousel-control-next"
                 data-bs-target="#demo"
                 data-bs-slide="next"
@@ -61,10 +52,11 @@ export default function Feedback() {
                 </svg>
               </a>
             </div>
-
+            {/* Carousel  */}
             <div className="col-sm-12 col-lg-8">
               <div className="carousel slide" id="demo" data-bs-ride="carousel">
                 <div className="carousel-inner">
+                  {/* carousel 1 */}
                   <div className="carousel-item active">
                     <div className="row">
                       <div className="col-6">
@@ -91,14 +83,11 @@ export default function Feedback() {
                                 className="img-fluid rounded-5"
                               />
                             </div>
-                            <div style={{ fontSize: "13px" }}>
+                            <div className="fs-6">
                               <strong className="d-block">
                                 James Anderson
                               </strong>
-                              <span
-                                className="d-block"
-                                style={{ color: "gray" }}
-                              >
+                              <span className="d-block txtgr">
                                 Facebook, Product Lead
                               </span>
                             </div>
@@ -128,14 +117,11 @@ export default function Feedback() {
                                 className="img-fluid rounded-5"
                               />
                             </div>
-                            <div style={{ fontSize: "13px" }}>
+                            <div className="fs-6">
                               <strong className="d-block">
                                 James Anderson
                               </strong>
-                              <span
-                                className="d-block"
-                                style={{ color: "gray" }}
-                              >
+                              <span className="d-block txtgr">
                                 Facebook, Product Lead
                               </span>
                             </div>
@@ -144,7 +130,7 @@ export default function Feedback() {
                       </div>
                     </div>
                   </div>
-
+                  {/* carousel 2  */}
                   <div className="carousel-item">
                     <div className="row">
                       <div className="col-6">
@@ -171,21 +157,17 @@ export default function Feedback() {
                                 className="img-fluid rounded-5"
                               />
                             </div>
-                            <div style={{ fontSize: "13px" }}>
+                            <div className="fs-6">
                               <strong className="d-block">
                                 James Anderson
                               </strong>
-                              <span
-                                className="d-block"
-                                style={{ color: "gray" }}
-                              >
+                              <span className="d-block txtgr">
                                 Facebook, Product Lead
                               </span>
                             </div>
                           </div>
                         </div>
                       </div>
-
                       <div className="col-6">
                         <div className="media">
                           <blockquote>
@@ -210,14 +192,11 @@ export default function Feedback() {
                                 className="img-fluid rounded-5"
                               />
                             </div>
-                            <div style={{ fontSize: "13px" }}>
+                            <div className="fs-6">
                               <strong className="d-block">
                                 James Anderson
                               </strong>
-                              <span
-                                className="d-block"
-                                style={{ color: "gray" }}
-                              >
+                              <span className="d-block txtgr">
                                 Facebook, Product Lead
                               </span>
                             </div>

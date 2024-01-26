@@ -2,12 +2,13 @@ import React from "react";
 import person1 from "../imageFolder/person_1.jpg.webp";
 import person2 from "../imageFolder/person_2.jpg.webp";
 import person3 from "../imageFolder/person_3.jpg.webp";
+import '../cssFolder/Feature.css'
 
 
 export default function OurNews() {
   return (
     <div className=" mt-lg-5">
-      <div class="untree_co-section bg-light">
+      <div class="bg-light">
         <div class="container p-5">
 
           <div class="row mb-4">
@@ -15,16 +16,15 @@ export default function OurNews() {
               class="col-12 text-center"
             >
               <h1 className="heading">Our News</h1>
-              <p style={{ color: "gray" }}>
+              <p className="txtgr">
                 Far from the countries Vokalia and Consonantia
               </p>
             </div>
           </div>
 
           <div className="row">
-            <div
-              class="col-md-6 mb-4 mb-lg-0 col-lg-4 "
-            >
+             {/* person1 card  */}
+            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
              <div className="card card-body border-0 p-5 hov float-end">
               <div class="news-item">
                 <div class="vcard d-flex align-items-center mb-4">
@@ -38,15 +38,16 @@ export default function OurNews() {
                   </div>
                   <div class="post-meta m-3">
                     <strong>Posted by James</strong>
-                    <div style={{ color:'gray' }}><span>Jun 14, 2020</span></div>
+                    <div className="txtgr"><span>Jun 14, 2020</span></div>
                   </div>
                 </div>
+
                 <div class="news-contents mb-4">
-                  <span class="post-meta-2" style={{ color:"gray",fontSize:'13px' }}>Digital Service, 4 min read</span>
+                  <span class="post-meta-2 txtgr">Digital Service, 4 min read</span>
                   <h3>
                     <a href="#" className="text-decoration-none text-dark">
-                      Far far away behind the word mountains far from the
-                      countries
+                     <p> Far far away behind the word mountains far from the
+                      countries</p>
                     </a>
                   </h3>
                 </div>
@@ -74,10 +75,8 @@ export default function OurNews() {
               </div>
               </div>
             </div>
-
-            <div
-              class="col-md-6 mb-4 mb-lg-0 col-lg-4 "
-            >
+             {/* person2 card  */}
+            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
                 <div className="card card-body border-0 p-5 hov">
               <div class="news-item">
                 <div class="vcard d-flex align-items-center mb-4">
@@ -91,16 +90,16 @@ export default function OurNews() {
                   </div>
                   <div class="post-meta m-3">
                     <strong>Posted by James </strong>
-                    <div style={{ color:'gray' }}><span>Jun 14, 2020</span></div>
+                    <div className="txtgr"><span>Jun 14, 2020</span></div>
                   </div>
                 </div>
 
                 <div class="news-contents mb-4">
-                  <span class="mb-5"style={{ color:"gray",fontSize:'13px' }}>Digital Service, 4 min read</span>
+                  <span class="mb-5 txtgr">Digital Service, 4 min read</span>
                   <h3>
                     <a href="#" className="text-decoration-none text-dark">
-                      Far far away behind the word mountains far from the
-                      countries
+                     <p> Far far away behind the word mountains far from the
+                      countries</p>
                     </a>
                   </h3>
                 </div>
@@ -128,9 +127,8 @@ export default function OurNews() {
               </div>
             </div>
             </div>
-            <div
-              class="col-md-12 col-lg-4"
-            >
+            {/* person3 card  */}
+            <div class="col-md-12 col-lg-4">
               <div className="card card-body border-0 p-5 hov">
               <div class="news-item">
                 <div class="vcard d-flex align-items-center mb-4">
@@ -144,16 +142,16 @@ export default function OurNews() {
                   </div>
                   <div class="post-meta m-3">
                     <strong>Posted by James </strong>
-                    <div style={{ color:'gray' }}><span>Jun 14, 2020</span></div>
+                    <div className="txtgr"><span>Jun 14, 2020</span></div>
                   </div>
                 </div>
 
                 <div class="news-contents mb-4">
-                  <span class="post-meta-2" style={{ color:"gray",fontSize:'13px' }}>Digital Service, 4 min read</span>
+                  <span class="post-meta-2 txtgr">Digital Service, 4 min read</span>
                   <h3>
                     <a href="#" className="text-decoration-none text-dark">
-                      Far far away behind the word mountains far from the
-                      countries
+                      <p> Far far away behind the word mountains far from the
+                      countries</p>
                     </a>
                   </h3>
                 </div>
@@ -181,9 +179,7 @@ export default function OurNews() {
               </div>
             </div>
             </div>
-
           </div>
-          
         </div>
       </div>
     </div>
