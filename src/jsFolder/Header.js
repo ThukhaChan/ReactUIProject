@@ -89,7 +89,7 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-            <div className="">
+            <div className="Log Button">
               <a className="btn btn-outline-dark me-3  rounded-5" href="#">
                 Sign in
               </a>

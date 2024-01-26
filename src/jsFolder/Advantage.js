@@ -7,6 +7,7 @@ export default function Advantage() {
     <div className="p-5">
       <div className="">
         <div className="container">
+          {/* title Advantage  */}
           <div className="row mb-4">
             <div
               className="col-12 text-center"
@@ -14,10 +15,11 @@ export default function Advantage() {
               data-aos-delay={0}
             >
               <h1 className="heading">Advantage of using our products</h1>
-              <p style={{ color:'gray' }}>Far from the countries Vokalia and Consonantia</p>
+              <p className="txtgr">Far from the countries Vokalia and Consonantia</p>
             </div>
           </div>
           <div className="row">
+            {/* service -- Grow Your Business  */}
             <div
               className="col-lg-6 mb-4"
               data-aos="fade-up"
@@ -43,7 +45,7 @@ export default function Advantage() {
                 </div>
                 <div className="service-contents">
                   <h5>Grow Your Business</h5>
-                  <p style={{ color:'gray' }}>
+                  <p className="txtgr">
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts.
@@ -56,6 +58,7 @@ export default function Advantage() {
                 </div>
               </div>
             </div>
+            {/* service -- Build Products */}
             <div
               className="col-lg-6 mb-4"
               data-aos="fade-up"
@@ -83,7 +86,7 @@ export default function Advantage() {
                 </div>
                 <div className="service-contents">
                   <h5>Build Products</h5>
-                  <p style={{ color:'gray' }}>
+                  <p className="txtgr">
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts.
@@ -96,6 +99,7 @@ export default function Advantage() {
                 </div>
               </div>
             </div>
+            {/* service -- Success Every Day  */}
             <div
               className="col-lg-6 mb-4"
               data-aos="fade-up"
@@ -123,7 +127,7 @@ export default function Advantage() {
                 </div>
                 <div className="service-contents">
                   <h5>Success Every Day</h5>
-                  <p style={{ color:'gray' }}>
+                  <p className="txtgr">
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts.
@@ -136,6 +140,7 @@ export default function Advantage() {
                 </div>
               </div>
             </div>
+            {/* service -- Bring Ideas to Life  */}
             <div
               className="col-lg-6 mb-4"
               data-aos="fade-up"
@@ -159,7 +164,7 @@ export default function Advantage() {
                 </div>
                 <div className="service-contents m-1">
                   <h5>Bring Ideas to Life</h5>
-                  <p style={{ color:'gray' }}>
+                  <p className="txtgr">
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts.

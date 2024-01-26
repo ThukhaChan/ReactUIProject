@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import about from "../imageFolder/about.svg";
 import CountUp from 'react-countup';
 import ScrollTrigger from "react-scroll-trigger";
-export default function () {
+export default function About () {
   const [counterOn, setConterOn]=useState(false);
   return (
     <ScrollTrigger onEnter={()=>setConterOn(true)}onExit={()=> setConterOn(false)}  >

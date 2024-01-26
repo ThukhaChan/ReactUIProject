@@ -7,13 +7,16 @@ export default function Feature1() {
       <div className="bg-light">
         <div className="container">
           <div className="row justify-content-between">
-
+            
+            {/* div Photo */}
             <div className="col-lg-7">
               <img src={dashboard1} alt="Image" className="img-fluid"/>
             </div>
+             {/* end div Photo */}
 
             <div className="col-lg-5  js-custom-dots">
 
+              {/* Service Link -> Grow Your Business */}
               <a
                 href="#"
                 className="service link horizontal d-flex  text-decoration-none text-dark"
@@ -45,7 +48,7 @@ export default function Feature1() {
                   </p>
                 </div>
               </a>
-
+              {/* Service Link -> Build Products */}
               <a
                 href="#"
                 className="service link horizontal d-flex  text-decoration-none text-dark"
@@ -80,7 +83,7 @@ export default function Feature1() {
                   </p>
                 </div>
               </a>
-
+              {/* Service Link -> Success Every Day */}
               <a
                 href="#"
                 className="service link horizontal d-flex text-decoration-none text-dark"
@@ -115,7 +118,7 @@ export default function Feature1() {
                   </p>
                 </div>
               </a>
-
+               {/* Service Link -> Bring Ideas to Life */}
               <a
                 href="#"
                 className="service link horizontal d-flex active text-decoration-none text-dark"
@@ -146,10 +149,7 @@ export default function Feature1() {
                   </p>
                 </div>
               </a>
-
             </div>
-            {/* Here  */}
-            <div className="p-5"></div>
           </div>
         </div>
       </div>

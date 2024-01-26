@@ -1,12 +1,14 @@
 import React from "react";
 import '../cssFolder/Feature.css'
-export default function () {
+export default function Feature2() {
   return (
     <div className="p-5">
       <div className="p-5">
         <div className="">
           <div className="container">
             <div className="row">
+
+              {/* service icon -- Grow Your Business */}
               <div
                 className="col-md-6 mb-4 mb-lg-0 col-lg-3 "
                 data-aos="fade-up"
@@ -39,6 +41,7 @@ export default function () {
                   </div>
                 </div>
               </div>
+              {/* service icon -- Build Products */}
               <div
                 className="col-md-6 mb-4 mb-lg-0 col-lg-3 "
                 data-aos="fade-up"
@@ -71,6 +74,7 @@ export default function () {
                   </div>
                 </div>
               </div>
+              {/* service icon -- Success Every Day */}
               <div
                 className="col-md-6 mb-4 mb-lg-0 col-lg-3"
                 data-aos="fade-up"
@@ -106,6 +110,7 @@ export default function () {
                   </div>
                 </div>
               </div>
+              {/* service icon -- Bring Ideas to Life */}
               <div
                 className="col-md-6 mb-4 mb-lg-0 col-lg-3"
                 data-aos="fade-up"

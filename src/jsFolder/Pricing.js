@@ -1,17 +1,19 @@
 import React from "react";
+import '../cssFolder/Pricing.css'
 export default function () {
   return (
     <div className="container-fluid container-spacing">
     <div className=" bg-light" id="pricing">
     <div className="container ">
       <div class="row pricing-title">
+        {/* Title Pricing */}
         <div
           class="col-12 text-center"
            data-aos="fade-up" 
            data-aos-delay="0"
         >
           <h2 class="heading">Pricing</h2>
-          <p style={{ color: "gray" }}>
+          <p className="txtgr">
             Pricing for everyone. Choose your plan now!
           </p>
         </div>
@@ -19,7 +21,7 @@ export default function () {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="row mb-5">
-
+              {/* Free Card */}
               <div
                 className="col-lg-4 mb-4"
                 data-aos="fade-up" 
@@ -29,12 +31,12 @@ export default function () {
                 <div className="pricing">
                     <div className="price ">
                       <span className="d-block plan fs-2">Free</span>
-                      <span className="price fs-1"style={{ color:'blue' }}>
+                      <span className="price fs-1 text-primary">
                         <sup>$</sup>
                         <span>0</span>
                       </span>
                     </div>
-                    <ul className=" list-unstyled primary mb-5" style={{ color:'gray' }}>
+                    <ul className=" list-unstyled primary mb-5 txtgr">
                       <li className="check position-relative ps-4">There live the blind texts</li>
                       <li className="check position-relative ps-4">Far far away behind the word</li>
                       <li className="check position-relative ps-4">Far from the countries Vokalia and Consonantia</li>
@@ -47,9 +49,9 @@ export default function () {
                 </div>
               </div>
               </div>
-
+              {/* Standard Card */}
               <div
-                className="col-lg-4 mb-4 "
+                className="col-lg-4 mb-4 shadow rounded-5"
                 data-aos="fade-up" 
                 data-aos-delay="200"
               >
@@ -58,12 +60,12 @@ export default function () {
                   <div className="body">
                     <div className="price">
                       <span className="d-block plan fs-2">Standard</span>
-                      <span className="price fs-1"style={{ color:'blue' }}>
+                      <span className="price fs-1 text-primary">
                         <sup>$</sup>
                         <span>19.99</span>
                       </span>
                     </div>
-                    <ul className=" list-unstyled primary mb-5" style={{ color:'gray' }}>
+                    <ul className=" list-unstyled primary mb-5 txtgr">
                       <li className="check position-relative ps-4">There live the blind texts</li>
                       <li className="check position-relative ps-4">Far far away behind the word</li>
                       <li className="check position-relative ps-4">Far from the countries Vokalia and Consonantia</li>
@@ -77,7 +79,7 @@ export default function () {
                 </div>
                 </div>
               </div>
-
+              {/* Premium Card */}
               <div
                 className="col-lg-4 mb-4"
                 data-aos="fade-up" 
@@ -88,12 +90,12 @@ export default function () {
                   <div className="body">
                     <div className="price">
                       <span className="d-block plan fs-2">Premium</span>
-                      <span className="price fs-1"style={{ color:'blue' }}>
+                      <span className="price fs-1 text-primary">
                         <sup>$</sup>
                         <span>79.99</span>
                       </span>
                     </div>
-                    <ul className=" list-unstyled primary mb-5" style={{ color:'gray' }}>
+                    <ul className=" list-unstyled primary mb-5 txtgr">
                       <li className="check position-relative ps-4">There live the blind texts</li>
                       <li className="check position-relative ps-4">Far far away behind the word</li>
                       <li className="check position-relative ps-4">Far from the countries Vokalia and Consonantia</li>
@@ -107,7 +109,6 @@ export default function () {
                 </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>

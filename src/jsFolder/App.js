@@ -1,7 +1,7 @@
 import '../cssFolder/App.css';
 import Header from './Header';
 import Home from './Home';
-import Feature from './Feature';
+import DigitalService from './DigitalService';
 import Feature1 from './Feature1';
 import Feature2 from './Feature2';
 import Pricing from './Pricing';
@@ -20,7 +20,7 @@ function App() {
     <div className="">
       <Header/>
       <Home/>
-      <Feature/>
+      <DigitalService/>
       <Feature1/>
       <Feature2/>
       <Pricing/>

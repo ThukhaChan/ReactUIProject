@@ -9,6 +9,7 @@ export default function Home() {
         <div className="row align-items-center">
           <div className="col-12">
             <div className="row align-items-center">
+              {/* SVG photo */}
               <div
                 className="col-lg-7 ml-auto order-lg-2 "
                 data-aos="fade-right"
@@ -16,7 +17,7 @@ export default function Home() {
               >
                 <img src={market} className="img-fluid" alt="market"></img>
               </div>
-
+              {/* Text  */}
               <div className="col-lg-5" 
                   data-aos="fade-up"
                   data-aos-duration="1000">
