@@ -1,7 +1,13 @@
 .header{
 
-    font-size:70px;
+    font-size:60px;
 }
 .para{
     color: gray;
+}
+
+@media(max-width : 1024px){
+    .header{
+        font-size: 40px !important;
+    }
 }

@@ -51,7 +51,7 @@ export default function () {
               </div>
               {/* Standard Card */}
               <div
-                className="col-lg-4 mb-4 shadow rounded-5"
+                className="col-lg-4 mb-4 rounded-5"
                 data-aos="fade-up" 
                 data-aos-delay="200"
               >

@@ -10,7 +10,8 @@ export default function Footer() {
               {/* --------- */}
 
               {/* Contact  Social Icon  */}
-              <div className="col-lg-4 p-5">
+              <div className="col-lg-4 p-3">
+
                 <div className="widget p-3">
                   <h5 className="">
                     About Launch<span class="text-primary">.</span>{" "}
@@ -71,7 +72,7 @@ export default function Footer() {
               </div>
 
               {/*   Projects */}
-              <div className="col-lg-2 ml-auto p-5">
+              <div className="col-lg-2 ml-auto p-3">
                 <div className="widget p-3">
                   <h5 className="">Projects</h5>
                   <ul className="list-unstyled float-left links">
@@ -105,7 +106,7 @@ export default function Footer() {
               </div>
 
               {/* Service */}
-              <div className="col-lg-2 p-5">
+              <div className="col-lg-2 p-3">
                 <div className="widget p-3">
                   <h5 className="">Services</h5>
                   <ul className="list-unstyled float-left links">
@@ -134,7 +135,7 @@ export default function Footer() {
               </div>
 
               {/*   Contact */}
-              <div class="col-lg-3 p-5">
+              <div class="col-lg-3 p-3">
                 <div class="widget p-3">
                   <h5 className="">Contact</h5>
                   <address className="txtgr">
@@ -170,7 +171,7 @@ export default function Footer() {
               </div>
 
               {/* copy right */}
-              <div class="row mt-5 p-5">
+              <div class="row mt-5 p-3">
                 <div class="col-12 text-center">
                   <p className="txtgr">
                     Copyright ©
