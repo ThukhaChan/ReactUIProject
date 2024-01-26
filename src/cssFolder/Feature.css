@@ -1,48 +1,56 @@
-.service-icon{
+.service-icon,.service-icons,.service-icon1{
 
-   
+    line-height: 40px;
+    text-align: center;
+}
+
+.service-icon{
     width: 45px;
     height: 45px;
-    padding-top: 3%;
-    padding-left: 3%;
-    
-    
+}
+.service-icons,.service-icon1{
+    width: 65px;
+    height: 40px;
 }
 .txtgr{
     color: gray;
 }
 
-.service-icons{
-    line-height: 40px;
-    width: 60px;
-    height: 40px;
-    padding-left: 1%;
-    padding-bottom: 1%;
-    padding-right: 1%;
-
-}
-.service-icons.color-1{
+.service-icons.color-1,.service-icon.service-icon.color-1,.service-icon1.service-icon1.color-1{
     background-color: aqua;
 }
-.service-icons.color-2{
-    background-color: rgb(219, 243, 81);
+.service-icons.color-2,.service-icon.service-icon.color-2,.service-icon1.service-icon1.color-2{
+    background-color: #fdff00;
 }
-.service-icons.color-3{
-    background-color: rgb(228, 80, 92);
+.service-icons.color-3,.service-icon.service-icon.color-3,.service-icon1.service-icon1.color-3{
+    background-color: #fe0000;
 }
-.service-icons.color-4{
-    background-color: rgb(115, 115, 231);
+.service-icons.color-4,.service-icon.service-icon.color-4,.service-icon1.service-icon1.color-4{
+    background-color: #02c435;
 }
 
-.service-icon.color-1{
-    background-color: aqua;
+
+@media (max-width :1024px ) {
+    .arrow-center{
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
 }
-.service-icon.color-2{
-    background-color: rgb(219, 243, 81);
+@media (max-width :1024px) {
+    .service2{
+        flex-direction: column;
+        
+    }
+    .service-icons{
+        width: 40px;
+    }
+
+    .service-icon1{
+        width: 110px;
+        line-height:-90px;
+        text-align: center;
+        
+    }
 }
-.service-icon.color-3{
-    background-color: rgb(228, 80, 92);
-}
-.service-icon.color-4{
-    background-color: rgb(115, 115, 231);
-}
+

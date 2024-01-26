@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div className="p-3">
-      <nav className="navbar navbar-expand-lg bg-light fixed-top">
+      <nav className="navbar navbar-expand-lg bg-white fixed-top">
         <div className="container">
           <a className="navbar-brand" href="#">
             <h4>
@@ -90,7 +90,7 @@ export default function Header() {
               </li>
             </ul>
             <div className="Log Button">
-              <a className="btn btn-outline-dark me-3  rounded-5" href="#">
+              <a className="btn btn-outline-primary me-3  rounded-5" href="#">
                 Sign in
               </a>
               <a className="btn btn-primary rounded-5" href="#">

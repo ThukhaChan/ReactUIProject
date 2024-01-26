@@ -14,7 +14,7 @@ export default function Feature2() {
                 data-aos-delay={0}
               >
                 <div className="service">
-                  <div className="service-icon color-1 mb-4 shadow-sm rounded-3">
+                  <div className="service-icon color-1 mb-4 shadow-lg rounded-3">
                     <svg
                       class="bi bi-app-indicator"
                       width="2em"
@@ -47,7 +47,7 @@ export default function Feature2() {
                 data-aos-delay={100}
               >
                 <div className="service">
-                  <div className="service-icon color-2 mb-4 shadow-sm rounded-3">
+                  <div className="service-icon color-2 mb-4 shadow-lg rounded-3">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="2em"
@@ -80,11 +80,11 @@ export default function Feature2() {
                 data-aos-delay={200}
               >
                 <div className="service">
-                  <div className="service-icon color-3 mb-4 shadow-sm rounded-3">
+                  <div className="service-icon color-3 mb-4 shadow-lg rounded-3">
                     <svg
                       className="bi bi-briefcase"
-                      width="2em"
-                      height="2em"
+                      width="1.5em"
+                      height="1.5em"
                       viewBox="0 0 16 16"
                       fill="#ffff"
                       xmlns="http://www.w3.org/2000/svg"
@@ -116,11 +116,11 @@ export default function Feature2() {
                 data-aos-delay={300}
               >
                 <div className="service">
-                  <div className="service-icon color-4 mb-4 shadow-sm rounded-3">
+                  <div className="service-icon color-4 mb-4 shadow-lg rounded-3">
                     <svg
                       className="bi bi-collection"
-                      width="2em"
-                      height="2em"
+                      width="1.5em"
+                      height="1.5em"
                       viewBox="0 0 16 16"
                       fill="#ffff"
                       xmlns="http://www.w3.org/2000/svg"

@@ -5,7 +5,6 @@ export default function () {
     <div className="container-fluid container-spacing">
     <div className=" bg-light" id="pricing">
     <div className="container ">
-      <div class="row pricing-title">
         {/* Title Pricing */}
         <div
           class="col-12 text-center"
@@ -17,13 +16,12 @@ export default function () {
             Pricing for everyone. Choose your plan now!
           </p>
         </div>
-        <div className="row">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="row mb-5">
+            <div className="row mb-5 pricing-card">
               {/* Free Card */}
               <div
-                className="col-lg-4 mb-4"
+                className="col-lg-4 mb-4 "
                 data-aos="fade-up" 
                 data-aos-delay="200"
               >
@@ -51,7 +49,7 @@ export default function () {
               </div>
               {/* Standard Card */}
               <div
-                className="col-lg-4 mb-4 rounded-5"
+                className="col-lg-4 mb-4 rounded-5 shadow"
                 data-aos="fade-up" 
                 data-aos-delay="200"
               >
@@ -114,8 +112,6 @@ export default function () {
         </div>
       </div>
       </div>
-    </div>
-    </div>
     </div>
   );
 }

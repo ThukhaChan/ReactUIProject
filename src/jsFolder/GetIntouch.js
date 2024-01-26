@@ -4,7 +4,7 @@ import "../cssFolder/Feature.css";
 export default function GetIntouch() {
   return (
     <div id="contact">
-      <div className="p-5">
+      {/* <div className="p-5"> */}
         <div className="container p-5">
           {/* Title Get In Touch  */}
           <div className="row mb-4" data-aos="fade-up" data-aos-delay="0">
@@ -82,7 +82,7 @@ export default function GetIntouch() {
             </div>
             {/* Contact Info  */}
             <div
-              className="col-lg-4 ms-auto"
+              className="col-lg-4 ms-auto mt-5 p-2"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -136,6 +136,6 @@ export default function GetIntouch() {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }

@@ -58,9 +58,7 @@ export default function DigitalService() {
                         live in Bookmarksgrove right at the coast of the
                         Semantics
                       </span>
-                      , a large language ocean. A small river named Duden flows
-                      by their place and supplies it with the necessary
-                      regelialia. ”
+                      , a large language ocean. A small river named Duden flows. ”
                     </blockquote>
                     <div className="author d-flex">
                       <div className="pic mr-3">

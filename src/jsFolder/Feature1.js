@@ -3,17 +3,17 @@ import "../cssFolder/Feature.css";
 import dashboard1 from "../imageFolder/dashboard1.jpg.webp";
 export default function Feature1() {
   return (
-    <div className="mt-5">
-      <div className="bg-light">
+    <div className="p-5 bg-light">
+      <div className="">
         <div className="container">
           <div className="row justify-content-between">
             {/* div Photo */}
-            <div className="col-lg-7">
+            <div className="col-lg-7 p-lg-3 shadow-lg">
               <img src={dashboard1} alt="Image" className="img-fluid" />
             </div>
             {/* end div Photo */}
 
-            <div className="col-lg-5  js-custom-dots">
+            <div className="col-lg-5 p-lg-3 js-custom-dots">
               {/* Service Link -> Grow Your Business */}
               <a
                 href="#"
@@ -22,11 +22,11 @@ export default function Feature1() {
                 data-aos-delay={0}
                 data-index={1}
               >
-                <div className="service-icons color-1 mb-2 mt-3 shadow-sm rounded-3">
+                <div className="service-icon1 color-1 mb-2 mt-3 shadow-lg rounded-3">
                   <svg
                     class="bi bi-app-indicator"
-                    width="2em"
-                    height="2em"
+                    width="1.7em"
+                    height="1.7em"
                     viewBox="0 0 16 16"
                     fill="#ffff"
                     xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ export default function Feature1() {
                 data-aos-delay={100}
                 data-index={2}
               >
-                <div className="service-icons color-2 mb-2 mt-3 shadow-sm rounded-3">
+                <div className="service-icon1 color-2 mb-2 mt-3 shadow-lg rounded-3">
                   <svg
                     className="bi bi-arrow-repeat"
                     width="2em"
@@ -89,11 +89,11 @@ export default function Feature1() {
                 data-aos-delay={200}
                 data-index={3}
               >
-                <div className="service-icons color-3 mb-2 mt-3 shadow-sm rounded-3">
+                <div className="service-icon1 color-3 mb-2 mt-3 shadow-lg rounded-3">
                   <svg
                     className="bi bi-briefcase"
-                    width="2em"
-                    height="2em"
+                    width="1.7em"
+                    height="1.7em"
                     viewBox="0 0 16 16"
                     fill="#ffff"
                     xmlns="http://www.w3.org/2000/svg"
@@ -124,11 +124,11 @@ export default function Feature1() {
                 data-aos-delay={300}
                 data-index={4}
               >
-                <div className="service-icons color-4 mb-2 mt-3 shadow-sm rounded-3">
+                <div className="service-icon1 color-4 mb-2 mt-3 shadow-lg rounded-3">
                   <svg
                     className="bi bi-collection"
-                    width="2em"
-                    height="2em"
+                    width="1.7em"
+                    height="1.7em"
                     viewBox="0 0 16 16"
                     fill="#ffff"
                     xmlns="http://www.w3.org/2000/svg"
