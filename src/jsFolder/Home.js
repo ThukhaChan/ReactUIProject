@@ -51,12 +51,14 @@ export default function Home() {
                   >
                     See Features
                   </a>
+                  
                   <a
                     href="#pricing"
                     className="btn btn-outline-primary smoothscroll  me-2 rounded-5"
                   >
                     Pricing
                   </a>
+
                 </p>
               </div>
             </div>
