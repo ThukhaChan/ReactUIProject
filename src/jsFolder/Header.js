@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -15,12 +16,12 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#home">
+                <Link className="nav-link active" aria-current="page" href="#" to={"/home"}>
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link to={"/"}
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -28,7 +29,7 @@ export default function Header() {
                   aria-expanded="false"
                 >
                   Dropdown
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#feedback">
@@ -58,24 +59,24 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#feature">
+                <Link to={"/feature2"} className="nav-link" href="#">
                   Feature
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#pricing">
+                <Link to={"/pricing"} className="nav-link" href="#">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <Link to={"/about"} className="nav-link" href="#">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <Link to={"/getintouch"} className="nav-link" href="#">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="Log Button">
